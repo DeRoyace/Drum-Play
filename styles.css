@@ -1,0 +1,141 @@
+html{
+  height: 100%;
+  /* height:max-content; */
+}
+
+body {
+  text-align: center;
+  /* background: linear-gradient(45deg,#2a0386, rgb(218, 7, 105)); */
+  background: linear-gradient(45deg,rgb(69, 3, 112), #070607);
+  background-repeat: no-repeat;
+  user-select: none;
+  /* height: 100%; */
+}
+
+h1 {
+  font-size: 6rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 5px 0 #DA0463;
+  margin-top: 3%;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url('images/tom1.png');
+}
+
+.a {
+background-image: url('images/tom2.png');
+}
+
+.s {
+background-image: url('images/tom3.png');
+}
+
+.d {
+background-image: url('images/tom4.png');
+}
+
+.j {
+background-image: url('images/snare.png');
+}
+
+.k {
+background-image: url('images/kick.png');
+}
+
+.l {
+background-image: url('images/crash.png');
+}
+
+.set {
+  margin: 7% auto;
+}
+
+/* .game-over {
+  background-color: red;
+  opacity: 0.8;
+} */
+
+.pressed {
+  /* box-shadow: 0 3px 4px 0 #DBEDF3; */
+  box-shadow: 0 0 0 7px #DBEDF3;
+  opacity: 0.7;
+}
+
+.color {
+  color: rgb(255, 255, 255);
+}
+
+.drum {
+  outline: none;
+  border: 10px solid;
+  /* border-radius: 15px; */
+  border-image-slice: 1;
+  /* border-image-source: linear-gradient(45deg,rgb(218, 13, 190), rgb(221, 103, 7) ); */
+  border-image-source: linear-gradient(45deg,rgb(13, 126, 255), rgb(255, 0, 85) );
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #0bf781;
+  text-shadow: 3px 0 #102e35;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  /* transition: 2000ms; */
+}
+
+footer{
+  padding: 10px;
+}
+
+footer a {
+  margin: 0.5%;
+}
+
+footer img {
+  border-radius: 35px;
+  width: 45px;
+}
+
+footer img:hover{
+  transform: scale(1.3);
+  transition: 300ms;
+  box-shadow: 0 0 16px rgba(245, 245, 245, 0.815);
+  margin: 0;
+}
+
+p{
+  padding-top: 10px;
+}
+
+/* .drum:active{
+  color: rgb(255, 252, 62);
+  transition: 0ms;
+} */
+
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 3.2rem;
+  }
+
+  .drum{
+    font-size: 3.9rem;
+    width: 120px;
+    height: 120px;
+  }
+
+  html{
+    height: 130%;
+  }
+}
