@@ -5,9 +5,9 @@ html {
 
 body {
   text-align: center;
-  /* background: linear-gradient(45deg,#2a0386, rgb(218, 7, 105)); */
   background: linear-gradient(135deg, rgb(29, 0, 110), #070607);
   background-repeat: no-repeat;
+  /* background: linear-gradient(45deg,#2a0386, rgb(218, 7, 105)); */
   user-select: none;
   /* height: 100%; */
 }
@@ -137,4 +137,22 @@ p {
   html {
     height: 130%;
   }
+}
+
+@media screen and (min-width:601px) and (max-width: 800px) {
+  html {
+    height: 150%;
+  }
+  
+  h1{
+    margin-bottom: 0;
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (min-width:801px) and (max-width: 1230px) {
+  html {
+    height: 130%;
+  }
+  
 }
