@@ -1,4 +1,4 @@
-html{
+html {
   height: 100%;
   /* height:max-content; */
 }
@@ -6,7 +6,7 @@ html{
 body {
   text-align: center;
   /* background: linear-gradient(45deg,#2a0386, rgb(218, 7, 105)); */
-  background: linear-gradient(135deg,rgb(29, 0, 110), #070607);
+  background: linear-gradient(135deg, rgb(29, 0, 110), #070607);
   background-repeat: no-repeat;
   user-select: none;
   /* height: 100%; */
@@ -33,27 +33,27 @@ footer {
 }
 
 .a {
-background-image: url('images/tom2.png');
+  background-image: url('images/tom2.png');
 }
 
 .s {
-background-image: url('images/tom3.png');
+  background-image: url('images/tom3.png');
 }
 
 .d {
-background-image: url('images/tom4.png');
+  background-image: url('images/tom4.png');
 }
 
 .j {
-background-image: url('images/snare.png');
+  background-image: url('images/snare.png');
 }
 
 .k {
-background-image: url('images/kick.png');
+  background-image: url('images/kick.png');
 }
 
 .l {
-background-image: url('images/crash.png');
+  background-image: url('images/crash.png');
 }
 
 .set {
@@ -78,9 +78,9 @@ background-image: url('images/crash.png');
 .drum {
   outline: none;
   border: 10px solid;
-  /* border-radius: 15px; */
+  border-radius: 15px;
   border-image-slice: 1;
-  border-image-source: linear-gradient(45deg,rgb(218, 13, 190), rgb(221, 103, 7) );
+  border-image-source: linear-gradient(45deg, rgb(218, 13, 190), rgb(221, 103, 7));
   /* border-image-source: linear-gradient(45deg,rgb(13, 126, 255), rgb(255, 0, 85) ); */
   font-size: 5rem;
   font-family: 'Arvo', cursive;
@@ -97,7 +97,7 @@ background-image: url('images/crash.png');
   /* transition: 2000ms; */
 }
 
-footer{
+footer {
   padding: 10px;
 }
 
@@ -110,34 +110,31 @@ footer img {
   width: 45px;
 }
 
-footer img:hover, footer img:active{
+footer img:hover,
+footer a:active {
   transform: scale(1.3);
   transition: 300ms;
   box-shadow: 0 0 10px rgba(245, 245, 245, 0.815), 0 0 16px rgba(245, 245, 245, 0.815);
   margin: 0;
 }
 
-p{
+p {
   padding-top: 10px;
 }
 
-/* .drum:active{
-  color: rgb(255, 252, 62);
-  transition: 0ms;
-} */
-
 @media screen and (max-width: 600px) {
-  h1{
+  h1 {
     font-size: 2.7rem;
+    padding-top: 5%;
   }
 
-  .drum{
+  .drum {
     font-size: 3.9rem;
     width: 120px;
     height: 120px;
   }
 
-  html{
+  html {
     height: 130%;
   }
 }
